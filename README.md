@@ -30,12 +30,14 @@ $ cd html-stringfunctions
 3. Pick any of the following options:   
     - Using PHP's built-in Web Server
     ```
-    $ php -S localhost:8080
+    php -S localhost:8080
     ```
     - Using Node.js local HTTP server
     ```
-    $ npm install -g http-server
-    $ http-server
+    npm install -g http-server
+    ```
+    ```
+    http-server
     ```
     - Using Python local HTTP server
     ```
