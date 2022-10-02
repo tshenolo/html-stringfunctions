@@ -17,6 +17,15 @@ There are lots of online tools to manupilate strings but the issue is some of th
 - URL Encode. eg File Name > File%20Name
 - URL Decode. eg File%20Name > File Name
 
+### Give it a spin
+Open you terminal and execute the following commands:
+1. $ git clone https://github.com/tshenolo/html-stringfunctions.git    
+2. $ cd html-stringfunctions
+3. $ php -S localhost:8000
+
+Open your browser and navigate to localhost:8000
+
+
 ### Built With:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
