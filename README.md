@@ -57,6 +57,7 @@ Open your browser and navigate to localhost:8080
 - Remove special characters
 - others... (feel free to get in touch for a feature request)
 
+### Screenshot
 
 ![image](img/demo.png)
 
