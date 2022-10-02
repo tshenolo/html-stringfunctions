@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/favicon.ico">
+    <title>HTML-String-Functions | @tshenolo</title>
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <h1 class="mt-5">HTML String Functions</h1>
+      <p class="lead">A client-side Utility to manipulate strings</p>
+      
+
+      <form>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="underscore" value="underscore" checked>
+          <label class="form-check-label" for="underscore">
+            Replace space with Underscore. eg File Name > File_Name
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="dash" value="dash">
+          <label class="form-check-label" for="dash">
+          Replace space with Dash. eg File Name > File-Name
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="removespace" value="removespace">
+          <label class="form-check-label" for="removespace">
+          Remove space. eg File Name > FileName
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="uppercase" value="uppercase">
+          <label class="form-check-label" for="uppercase">
+          Uppercase. eg File Name > FILE NAME
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="lowercase" value="lowercase">
+          <label class="form-check-label" for="lowercase">
+          Lowercase. eg File Name > file name
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="length" value="length">
+          <label class="form-check-label" for="length">
+           String Length. File Name > 9
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="md5" value="md5">
+          <label class="form-check-label" for="length">
+           MD5. File Name > 76348cf9ddb92acc65440418b185db2d
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="base64encode" value="base64encode">
+          <label class="form-check-label" for="length">
+           Base64 Encode. File Name > RmlsZSBOYW1l
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="base64decode" value="base64decode">
+          <label class="form-check-label" for="length">
+           Base64 Decode. RmlsZSBOYW1l > File Name
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="urlencode" value="urlencode">
+          <label class="form-check-label" for="length">
+           URL Encode. File Name > File%20Name
+          </label>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="urldecode" value="urldecode">
+          <label class="form-check-label" for="length">
+           URL Decode. File%20Name > File Name
+          </label>
+        </div>
+          <div class="form-row">
+            <div class="col-8">
+              <input type="text" class="form-control" placeholder="String"  id="oldString">
+            </div>
+            <div class="col-2">
+              <input type="reset" class="btn btn-info btn-block" value="Reset"  id="Reset">
+            </div>
+            <div class="col-2">
+            <input type="button" class="btn btn-primary btn-block" value="Submit"  id="submit">
+            </div>
+          </div>
+        </form>
+        
+        
+        <div class="form-row mt-3">
+          <div class="col-10">
+            <input type="text" class="form-control" id="NewString" disabled>
+          </div>
+          <div class="col-2">
+            <input type="button" class="btn btn-primary btn-block" value="Copy"  id="copyText">
+          </div>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted"><p class="love">Made with <i class="icon ion-heart"></i> in Canada</p></span>
+      </div>
+    </footer>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
+
+
+

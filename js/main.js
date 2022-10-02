@@ -3,8 +3,6 @@ $('#copyText').click(function(){
     navigator.clipboard.writeText(NewString);
 });
 
-
-
 $('#submit').click(function(){
     var oldString = $('#oldString').val();
     var stringfunction = $('input[name="exampleRadios"]:checked').val();
