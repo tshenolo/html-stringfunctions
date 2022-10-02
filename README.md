@@ -57,10 +57,13 @@ Open your browser and navigate to localhost:8080
 - Remove special characters
 - others... (feel free to get in touch for a feature request)
 
+
+![image](img/demo.png)
+
+
 If you like this project please don't be shy to:
 
 <a href="https://www.buymeacoffee.com/tshenolo"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="tshenolo" /></a>
-
 
 
 
