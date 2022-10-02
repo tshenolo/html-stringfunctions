@@ -17,13 +17,32 @@ There are lots of online tools to manupilate strings but the issue is some of th
 - URL Encode. eg File Name > File%20Name
 - URL Decode. eg File%20Name > File Name
 
-### Give it a spin
-Open you terminal and execute the following commands:
-1. $ git clone https://github.com/tshenolo/html-stringfunctions.git    
-2. $ cd html-stringfunctions
-3. $ php -S localhost:8000
+### Give it a try
+Open your terminal/command line and execute the following commands:
+1. Clone the repository
+```
+$ git clone https://github.com/tshenolo/html-stringfunctions.git  
+```  
+2. Navigate to the html-stringfunctions folder
+```
+$ cd html-stringfunctions
+```
+3. Pick any of the following options:   
+    - Using PHP's built-in Web Server
+    ```
+    $ php -S localhost:8080
+    ```
+    - Using Node.js local HTTP server
+    ```
+    $ npm install -g http-server
+    $ http-server
+    ```
+    - Using Python local HTTP server
+    ```
+    python -m http.server 8080
+    ```
 
-Open your browser and navigate to localhost:8000
+Open your browser and navigate to localhost:8080
 
 
 ### Built With:
