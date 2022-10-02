@@ -28,7 +28,8 @@ There are lots of online tools to manupilate strings but the issue is some of th
 - others... (feel free to get in touch for a feature request)
 
 If you like this project please don't be shy to:
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="tshenolo" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
+<a href="https://www.buymeacoffee.com/tshenolo"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="tshenolo" /></a>
 
 
 
