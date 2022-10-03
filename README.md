@@ -54,14 +54,15 @@ Open your browser and navigate to localhost:8080
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
 ### TODO: Add the following features
-- Remove special characters
-- others... (feel free to get in touch for a feature request)
+- [ ] Remove special characters
+- [ ] others... (feel free to get in touch for a feature request)
+
 
 ### Screenshot
 
 ![image](img/demo.png)
 
-
+### Support
 If you like this project please don't be shy to:
 
 <a href="https://www.buymeacoffee.com/tshenolo"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="tshenolo" /></a>
