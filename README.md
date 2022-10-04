@@ -1,7 +1,7 @@
 # html-stringfunctions
 A client-side Utility to manipulate strings
 
-### Motivations for this project
+### Motivation
 There are lots of online tools to manupilate strings but the issue is some of them are possibly saving people's data on their servers. This tool runs on the client's browser and does not send data to any backend server.
 
 ### Features:
@@ -17,7 +17,7 @@ There are lots of online tools to manupilate strings but the issue is some of th
 - URL Encode. eg File Name > File%20Name
 - URL Decode. eg File%20Name > File Name
 
-### Give it a try
+### How to Install
 Open your terminal/command line and execute the following commands:
 1. Clone the repository
 ```
