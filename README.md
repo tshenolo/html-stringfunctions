@@ -24,7 +24,7 @@ There are lots of online tools to manupilate strings but the issue is some of th
 - URL Encode. eg File Name > File%20Name
 - URL Decode. eg File%20Name > File Name
 
-### How to Install
+## Usage
 Open your terminal/command line and execute the following commands:
 1. Clone the repository
 ```
@@ -70,6 +70,7 @@ Open your browser and navigate to localhost:8080
 
 
 ### TODO: Add the following features
+- [x] Dockerize application
 - [ ] Remove special characters
 - [ ] others... (feel free to get in touch for a feature request)
 
