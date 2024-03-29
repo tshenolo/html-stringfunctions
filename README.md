@@ -53,14 +53,14 @@ $ cd html-stringfunctions/src
 
 Open your browser and navigate to localhost:8080
 
-### Docker
-#### Build the Docker Image
+## Docker
+### Build the Docker Image
 Open a terminal, navigate to the directory containing your Dockerfile, and execute the following command
 ```bash
 docker build -t html-stringfunctions .
 ```
 
-#### Run the Docker Container
+### Run the Docker Container
 After the image is built, run a container from it with the following command
 ```bash
 docker run -d -p 8080:80 html-stringfunctions
@@ -69,13 +69,13 @@ docker run -d -p 8080:80 html-stringfunctions
 Open your browser and navigate to localhost:8080
 
 
-### TODO: Add the following features
+## TODO: Add the following features
 - [x] Dockerize application
 - [ ] Remove special characters
 - [ ] others... (feel free to get in touch for a feature request)
 
 
-### Support
+## Support
 If you like this project please don't be shy to:
 
 <a href="https://www.buymeacoffee.com/tshenolo"><img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="tshenolo" /></a>
