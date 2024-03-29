@@ -1,6 +1,13 @@
 # html-stringfunctions
 A client-side Utility to manipulate strings
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+
+![image](screenshot.png)
+
 ### Motivation
 There are lots of online tools to manupilate strings but the issue is some of them are possibly saving people's data on their servers. This tool runs on the client's browser and does not send data to any backend server.
 
@@ -25,7 +32,7 @@ $ git clone https://github.com/tshenolo/html-stringfunctions.git
 ```  
 2. Navigate to the html-stringfunctions folder
 ```
-$ cd html-stringfunctions
+$ cd html-stringfunctions/src
 ```
 3. Pick any of the following options:   
     - Using PHP's built-in Web Server
@@ -46,21 +53,26 @@ $ cd html-stringfunctions
 
 Open your browser and navigate to localhost:8080
 
+### Docker
+#### Build the Docker Image
+Open a terminal, navigate to the directory containing your Dockerfile, and execute the following command
+```bash
+docker build -t html-stringfunctions .
+```
 
-### Built With:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+#### Run the Docker Container
+After the image is built, run a container from it with the following command
+```bash
+docker run -d -p 8080:80 html-stringfunctions
+```
+
+Open your browser and navigate to localhost:8080
+
 
 ### TODO: Add the following features
 - [ ] Remove special characters
 - [ ] others... (feel free to get in touch for a feature request)
 
-
-### Screenshot
-
-![image](img/demo.png)
 
 ### Support
 If you like this project please don't be shy to:
